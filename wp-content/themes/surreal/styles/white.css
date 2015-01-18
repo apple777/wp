@@ -1,0 +1,329 @@
+::-moz-selection{
+background:#af1b5a;
+}
+
+::selection{
+background:#af1b5a;
+}
+
+body{
+background-color:#fff;
+color:#222;
+}
+
+h1,h2,h3,h4{
+color:#222;
+}
+
+h1 span{
+color:#7b133c;
+}
+
+h2.white{
+color:#222;
+}
+
+h3{
+color:#555;
+}
+
+h3.sectionTitle{
+border-bottom:1px solid #cacaca;
+}
+
+
+p a{
+color:#222;
+}
+
+p a:hover{
+color:#a90e4b;
+transition:color .5s;
+}
+
+a{
+color:#222;
+}
+
+a:hover{
+color:#a90e4b;
+}
+
+.highlight{
+background:#7b133c;
+}
+
+.dropcap{
+background:#7b133c;
+}
+
+.page{
+background:#fff;
+}
+
+nav{
+border-bottom: 0px;
+}
+
+nav ul li a:hover{
+color:#a90e4b;
+}
+
+#slidecaption h2,#slidecaption p{
+color:#fff;
+}
+
+.parallax{
+border-top:10px solid rgba(255,255,255,0.3);
+border-bottom:10px solid rgba(255,255,255,0.3);
+color:#fff;
+}
+
+.parallax h3 span{
+color:#fff;
+}
+
+#folio{
+background:url(../images/gallery-quote-white.png) center 80px no-repeat #fff;
+}
+
+.gallerySelector{
+background:#E5E5E5;
+}
+
+.gallerySelectorList li:hover a{
+color:#fff;
+}
+
+.gallerySelectorList li a{
+color:#222;
+}
+
+.gallerySelectorList li.current{
+background:#7b133c;
+}
+
+.gallerySelectorList li.current a{
+color:#fff;
+}
+
+.thumbImage .thumbText h3{
+color:#fff;
+}
+
+.thumbImage .thumbTextWrap{
+opacity:0;
+background:#7b133c;
+}
+
+.ie8 .thumbImage:hover .thumbTextWrap{
+display:block;
+}
+
+
+.portfolioBottom{
+background:#E5E5E5;
+}
+
+.teamImage .teamName{
+background-color:#7b133c;
+}
+
+.teamImage h2{
+color:#fff;
+}
+
+.teamImage h3{
+color:#fff;
+}
+
+.statNumber{
+color:#fff;
+}
+
+.statText{
+color:#fff;
+}
+
+.serviceInfoWrap{
+box-shadow:0 0 0 20px rgba(255,255,255,0.4),0 0 3px rgba(115,114,23,0.8) inset;
+}
+
+.serviceItem:hover .serviceInfoBack{
+pointer-events:auto;
+}
+
+.accTrigger{
+background:#e5e5e5;
+}
+
+.accTrigger a{
+color:#222;
+}
+
+.tooltip-inner{
+color:#222;
+}
+
+input[type="text"],input[type="password"],input[type="email"],textarea,select, #commentform textarea{
+background:#e5e5e5;
+color:#222;
+}
+
+input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,textarea:focus{
+box-shadow:0 0 7px #222;
+}
+
+a.button,button,input[type="submit"],input[type="reset"],input[type="button"]{
+background:#7b133c;
+}
+
+a.button:hover,button:hover,input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover{
+color:#222;
+background:#ddd;
+}
+
+.flickrListing a:hover{
+border:1px solid #222;
+}
+
+#footer{
+background:#fff;
+}
+
+.dateWrap{
+color:#fff;
+}
+
+/*.post-body div a{
+color:#fff;
+}
+
+.post-body div a:hover{
+color:#fff;
+}*/
+
+.tags a{
+background:#eee;
+color:#999;
+}
+
+#comments [id*="div-comment"] .span11{
+background:#eee;
+}
+
+.widget_search input[type="text"]{
+background-color:#eee;
+color:#222;
+}
+
+.widget_tag_cloud a{
+background:#eee;
+}
+
+.widget_calendar th{
+background:#eee;
+color:#fff;
+}
+
+.widget_calendar tbody td a{
+background:#E4E4E4;
+}
+
+.widget_links li a:hover,.widget_pages li a:hover,.widget_meta li a:hover,.widget_archive li a:hover,.widget_categories li a:hover,.widget_calendar tbody td a:hover,.widget_recent_entries li a:hover,.widget_recent_comments li a:hover{
+color:#222;
+}
+
+
+
+/*new wp xml import colors*/
+
+blockquote cite{
+	color:#222;
+}
+
+ins{
+	color:#fff;
+	background-color: #7B133C;
+}
+
+.format-aside{
+	background-color:#ddd;
+    border-left-color:#7B133C;
+}
+	
+.pe-wp-default a,
+.pe-wp-default p a{
+	color:#999;
+}
+
+.pe-wp-default a:hover,
+.pe-wp-default p a:hover{
+	color:#7B133C;
+}
+
+.pe-wp-default .wp-caption .wp-caption-text,
+.pe-wp-default .gallery-caption,
+.pe-wp-default .entry-caption {
+	color: #999;
+}
+
+.pe-wp-default table,
+.pe-wp-default .comment-body table {
+	border-bottom-color:#ccc;
+	color: #222;
+}
+
+.pe-wp-default th{
+	color: #444;
+}
+
+.pe-wp-default td, 
+.pe-wp-default .comment-body td {
+    border-top-color:#ccc;
+}
+
+.pe-wp-default caption, 
+.pe-wp-default th, 
+.pe-wp-default td{
+	color:#222;
+}
+
+.pe-wp-default abbr, 
+.pe-wp-default .comment-body abbr, 
+.pe-wp-default dfn, 
+.pe-wp-default .comment-body dfn, 
+.pe-wp-default acronym, 
+.pe-wp-default .comment-body acronym{
+	border-bottom-color:#ccc;
+}
+
+.pe-wp-default pre, 
+.pe-wp-default .comment-body pre{
+	border-color:#EDEDED;
+	color: #666;
+}
+
+.post.sticky .post-title h2,
+.post.sticky .post-title h2 a{
+	color:#fff;
+}
+
+.post.sticky .post-title h2 a:hover{
+	color:#eee;
+}
+
+.post-pager .pager > li > a{
+	color:#fff;
+	background-color:#7B133C;
+}
+
+.post-pager .pager > li > a:hover{
+	background-color:#aaa;
+	color:#fff;
+}
+
+.page-links > a{
+	color:#222;
+}
+

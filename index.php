@@ -1,15 +1,17 @@
-<?php $t =& peTheme(); ?>
-<?php $content =& $t->content; ?>
-<?php get_header(); ?>
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
 
-<div class="section blog page" id="<?php $content->slug(); ?>">
-		<div class="container">
-			<div class="eleven columns">			
-				<?php $t->content->loop(); ?>
-			</div>
-			
-			<?php get_sidebar(); ?>
-		</div>
-</div>
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define('WP_USE_THEMES', true);
 
-<?php get_footer(); ?>
+/** Loads the WordPress Environment and Template */
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );
